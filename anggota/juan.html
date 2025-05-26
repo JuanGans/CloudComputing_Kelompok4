@@ -4,11 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perkenalan Diri</title>
+    <title>Kartu Nama - Juan Felix</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, #00c6ff, #0072ff);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            padding: 40px 30px;
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+        }
+
+        .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 5%; 
+    border: 4px solid #0072ff;
+    margin-bottom: 20px;
+}
+
+        h1 {
+            margin: 10px 0 5px;
+            color: #0072ff;
+            font-size: 26px;
+        }
+
+        p {
+            margin: 5px 0;
+            color: #333;
+        }
+
+        .description {
+            margin-top: 15px;
+            font-size: 15px;
+            color: #555;
+            font-style: italic;
+            line-height: 1.5;
+        }
+    </style>
 </head>
 <body>
-    <p>Juan Felix Antonio Nathan Tote</p>
-    <p>2241720042</p>
-    <p>TI-3C</p>
+    <div class="card">
+        <img src="/image/juan.jpeg" alt="Foto Juan Felix" class="profile-pic">
+        <h1>Juan Felix Antonio Nathan Tote</h1>
+        <p><strong>NIM:</strong> 2241720042</p>
+        <p><strong>Kelas:</strong> TI-3C</p>
+        <div class="description">
+            Let me introduce myself, I am Juan Felix, a 6th-semester student at the State Polytechnic of Malang, majoring in Informatics Engineering. I am actively seeking internship opportunities to gain hands-on experience and grow professionally. I have a strong passion for Cyber Security and UI/UX design, with skills in HTML, CSS, wireframing, prototyping, and usability testing. I enjoy collaborating in teams to create secure, user-centered digital solutions.
+        </div>
+    </div>
 </body>
 </html>
